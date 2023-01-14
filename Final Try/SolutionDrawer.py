@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+
 class SolDrawer:
     @staticmethod
     def get_cmap(n, name='hsv'):
@@ -10,10 +11,10 @@ class SolDrawer:
         plt.clf()
         SolDrawer.drawPoints(nodes)
         SolDrawer.drawRoutes(sol)
-        plt.savefig(str(itr)+'.png')
+        plt.savefig(str(itr))
 
     @staticmethod
-    def drawPoints(nodes:list):
+    def drawPoints(nodes: list):
         x = []
         y = []
         for i in range(len(nodes)):
@@ -24,7 +25,7 @@ class SolDrawer:
 
     @staticmethod
     def drawRoutes(sol):
-        cmap = SolDrawer.get_cmap(len(sol.routes))
+        cmap = SolDrawer.get_cmap(len(sol.routes) + 1)
         if sol is not None:
             for r in range(0, len(sol.routes)):
                 rt = sol.routes[r]
@@ -33,3 +34,11 @@ class SolDrawer:
                     c1 = rt.sequenceOfNodes[i + 1]
                     plt.plot([c0.x, c1.x], [c0.y, c1.y], c=cmap(r))
 
+    @staticmethod
+    def drawTrajectory(searchTrajectory):
+        plt.clf()
+        plt.plot(searchTrajectory, 'o-')
+        plt.title('Search Trajectory')
+        plt.xlabel('Iterations')
+        plt.ylabel('Objective Function')
+        plt.savefig(str("SearchTrajectory"))
