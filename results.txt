@@ -63,3 +63,8 @@ VND  0= Relo 1=Swaps
 
 VND2 TwoOpt=0, Swaps =1, Relo= 2
 VND  0= Relo 1=Swaps 2 = Twoopt
+
+
+4.471686383188162 
+VND2 TwoOpt=0, Swaps =1, Relo= 2
+VND  2 = Relo 0=Swaps 1 = Twoopt
