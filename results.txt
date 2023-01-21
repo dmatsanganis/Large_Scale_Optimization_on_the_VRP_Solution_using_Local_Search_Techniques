@@ -33,6 +33,30 @@ VND  0= Relo 1=Swaps
 VND2 TwoOpt=0, Swaps =2, Relo= 1
 VND  0= Relo 1=Swaps
 
+JULIA:
+VND2: Relo= 2, 2opt=1, swap=0  VND1: relo swap 2opt  4.49
+VND2: ---		VND1: Relo, 2opt, swap 4.64
+VND2: ---		VND1: swap relo 2opt 5.40
+VND2: ---		VND1: swap 2opt relo 5.40
+VND2: ---		VND1: 2opt swap relo 5.40
+VND2: ---		VND1: 2opr relo swap 6.32
+
+VND2: swap, 2opt, relo  VND1: relo swap 2opt 4.38 ---------------------------------1
+VND2: ---		VND1: Relo, 2opt, swap 4.55
+VND2: ---		VND1: swap relo 2opt 5.54
+VND2: ---		VND1: swap 2opt relo 5.24
+VND2: ---		VND1: 2opt swap relo 6.2
+VND2: ---		VND1: 2opr relo swap 4.38
+
+VND2 2opt, relo, swap   VND1: relo swap 2opt 4.43
+VND2: ---		VND1: Relo, 2opt, swap 4.47
+VND2: ---		VND1: swap relo 2opt 5.54
+VND2: ---		VND1: swap 2opt relo 6.3
+VND2: ---		VND1: 2opt swap relo 6.3
+VND2: ---		VND1: 2opr relo swap 4.44
+
+
+
 0 155 183 192 142 193 28 34 8 4.262760884436405
 0 121 112 6 4.370189002787344
 0 42 160 96 184 104 176 138 47 14 3.865461595948325
@@ -68,3 +92,4 @@ VND  0= Relo 1=Swaps 2 = Twoopt
 4.471686383188162 
 VND2 TwoOpt=0, Swaps =1, Relo= 2
 VND  2 = Relo 0=Swaps 1 = Twoopt
+
