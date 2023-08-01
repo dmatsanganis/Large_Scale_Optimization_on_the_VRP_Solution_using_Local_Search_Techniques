@@ -30,6 +30,9 @@ After applying the Advanced VND, the script applies a default version of the VND
 
 The best solution found is stored and outputted at the end of the script. The cost of the solution and other key metrics are also reported.
 
+![AdvancedVND19](https://github.com/dmatsanganis/Large_Scale_Optimization_on_the_VRP_Solution_using_Local_Search_Techniques/assets/34712449/70264c2d-0434-4dac-ac4c-6c4ade177d09)
+
+
 ## Requirements
 
 To run this script, you need Python 3.10+ and the following Python libraries installed:
