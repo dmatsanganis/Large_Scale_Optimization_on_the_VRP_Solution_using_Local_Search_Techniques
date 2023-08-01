@@ -1,4 +1,4 @@
-# Vehicle Routing Problem Solver
+# Large Scale Optimization on the VRP solution using Local Search Techniques
 
 This repository contains a Python implementation of a solution to the Vehicle Routing Problem (VRP) using the Variable Neighborhood Descent (VND) methodology.
 
