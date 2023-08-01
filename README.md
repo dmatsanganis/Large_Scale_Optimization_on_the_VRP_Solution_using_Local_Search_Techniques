@@ -8,7 +8,7 @@ The Vehicle Routing Problem (VRP) is a complex combinatorial optimization proble
 
 The `Solver.py` script uses a two-phase VND approach to tackle the VRP:
 
-### Initialization
+### Initialization 
 
 The script begins by initializing certain parameters, such as the distance matrix and the solution object. The solution object encapsulates the routes for all vehicles in the problem.
 
